@@ -1,8 +1,17 @@
 ﻿namespace checkout
 
+module Checkout =
+    let GetPrice items = 
+        0 
+    
+    
+
 module CheckoutTests =
+    
     open NUnit.Framework
+    open Checkout
+
 
     [<Test>]
     let ``Empty Basket is Empty`` () =
-        Assert.That(2 + 2, Is.EqualTo 5)
+        Assert.That(Checkout.GetPrice, Is.EqualTo 0)
