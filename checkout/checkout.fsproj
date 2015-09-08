@@ -51,6 +51,7 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Checkout.fs" />
     <Compile Include="CheckoutTests.fs" />
     <Content Include="packages.config" />
     <Content Include="app.config" />

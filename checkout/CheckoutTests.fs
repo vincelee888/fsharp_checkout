@@ -1,11 +1,5 @@
 ﻿namespace checkout
 
-module Checkout =
-    let GetPrice items = 
-        0 
-    
-    
-
 module CheckoutTests =
     
     open NUnit.Framework
